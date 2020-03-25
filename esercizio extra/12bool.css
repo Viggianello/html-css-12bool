@@ -7,7 +7,6 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    position: relative;
 }
 .container::after {
     clear: both;
@@ -113,32 +112,7 @@
 .col-offset-11{
     margin-left: calc((100% /  12) * 12);
 }
-.body-background{
 
-    background-color: black;
-}
-
-.buchi{
-    z-index: 8;
-    /* margin-top: 25%; */
-    padding: 25%;
-    position: absolute;
-    border-radius: 50%;
-    transform: translate(50%, -50%);
-    border: 1px solid white;
-    background-color: white;
-}
-.buchi2{
-    z-index: 7;
-    margin: 25%;
-    padding: 25%;
-    position: absolute;
-    border-radius: 50%;
-    /* width: 10%; */
-    transform: translate(50%, -50%);
-    border: 1px solid white;
-    background-color: yellow;
-}
 /* body:hover .body-background{
     display: block;
 } */
