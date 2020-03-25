@@ -1,0 +1,12 @@
+.colorato{
+    height: 100px;
+    background-color: red;
+    border: 1px solid white;
+}
+
+.colorato2{
+    height: 80px;
+    margin-top: 10px;
+    background-color: blue;
+    margin: 1px solid yellow;
+}
